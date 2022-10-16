@@ -1,0 +1,171 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.bg-container {
+  background: linear-gradient(to right, #ffffff, #cffcf1, #cffcf1, #defafe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.bgd-container {
+  display: flex;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 768px) {
+  .bgd-container {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+}
+
+.bgd-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 250px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 576px) {
+  .bgd-section {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bgd-section {
+    width: 600px;
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .bgd-section {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+.bgd-timer {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .bgd-timer {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bgd-timer {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.time {
+  color: #00d9f5;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.bgd-text {
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.timer-controller {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  background: transparent;
+  border: none;
+  outline: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.timer-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.timer-text {
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.time-limit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-limit-card {
+  display: flex;
+  align-items: center;
+}
+
+.timer-btn {
+  color: #1e293b;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 35px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.timer-limit-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.timer-limit-sec {
+  background: linear-gradient(to right, #00f5a0, #00d9f5);
+  width: 100px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
